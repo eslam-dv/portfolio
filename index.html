@@ -1,40 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div class="Logo">Eslam</div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#my-work">My Work</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="navbar">
+      <div class="container nav-container">
+        <div class="logo"><span>E</span>slam<span>-dv</span></div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about-me" class="nav-link">About Me</a></li>
+            <li><a href="#my-work" class="nav-link">My Work</a></li>
+            <li><a href="#contacts" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- Hero Section -->
     <section class="section">
-      <div class="container">
-        <div class="col">
+      <div class="container hero-container">
+        <div class="col img-col">
           <div class="hero-img">
-            <img src="" alt="">
+            <img src="./assets/personal-circle.jpg" alt="Personal Photo" />
           </div>
         </div>
-        <div class="col">
-          <h1>Hello, I’m <span>Eslam</span> a <span>Web Developer</span></h1>
-          <p>Do you want to build a professional website ? I’m sure I can help you with that. Take a look at my work to see what I can do</p>
+        <div class="col hero-txt">
+          <h1 class="hero-title">
+            Hello, I’m <span>Eslam</span> a <span>Web Developer</span>
+          </h1>
+          <p class="hero-desc">
+            Do you want to build a professional website ? I’m sure I can help
+            you with that. Take a look at <a href="#my-work">my work</a> to see
+            what I can do.
+          </p>
           <div class="my-skills">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JS</div>
+            <span>Skills: </span>
+            <div class="skill">
+              <img src="./assets/wordpress-icon.png" alt="Wordpress" />
+            </div>
+            <div class="skill">
+              <img src="./assets/html5-icon.png" alt="HTML5" />
+            </div>
+            <div class="skill">
+              <img src="./assets/css-icon.png" alt="CSS3" />
+            </div>
+            <div class="skill">
+              <img src="./assets/js-icon.png" alt="JavaScript" />
+            </div>
+            <div class="skill">
+              <img src="./assets/react-icon.png" alt="ReactJS" />
+            </div>
+            <div class="skill">
+              <img src="./assets/nodejs-icon.png" alt="NodeJs" />
+            </div>
           </div>
-          <a href="#contacts">Contact Me</a>
+          <a href="#contacts" class="hero-link btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+    <!-- About Me Section -->
+    <!-- My Work Section -->
+    <section class="section">
+      <div class="container">
+        <h3 class="section-title">My Work</h3>
+        <div class="card-container">
+          <div class="card">
+            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-details">
+              <h4 class="card-title">Project Title</h4>
+              <p class="card-desc">project descreption</p>
+              <div class="card-links">
+                <a href="#" class="btn">Preview</a>
+                <a href="#" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-details">
+              <h4 class="card-title">Project Title</h4>
+              <p class="card-desc">project descreption</p>
+              <div class="card-links">
+                <a href="#" class="btn">Preview</a>
+                <a href="#" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-details">
+              <h4 class="card-title">Project Title</h4>
+              <p class="card-desc">project descreption</p>
+              <div class="card-links">
+                <a href="#" class="btn">Preview</a>
+                <a href="#" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-details">
+              <h4 class="card-title">Project Title</h4>
+              <p class="card-desc">project descreption</p>
+              <div class="card-links">
+                <a href="#" class="btn">Preview</a>
+                <a href="#" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
