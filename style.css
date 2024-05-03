@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  --primary: #5271ff;
+  --white: #dfe4e8;
+  --black: #222831;
+}
+
+h1, p {
+  margin: 0;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+}
