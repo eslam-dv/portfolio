@@ -17,7 +17,19 @@
     <header class="navbar">
       <div class="container nav-container">
         <div class="logo"><span>E</span>slam<span>-dv</span></div>
-        <nav>
+        <div class="menu">
+          <svg
+            viewBox="0 0 512 512"
+            fill="currentColor"
+            height="1em"
+            width="1em"
+          >
+            <path
+              d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm64 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zm384 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </div>
+        <nav class="open">
           <ul class="nav-list">
             <li><a href="#home" class="nav-link">Home</a></li>
             <li><a href="#about-me" class="nav-link">About Me</a></li>
@@ -64,6 +76,9 @@
             <div class="skill">
               <img src="./assets/nodejs-icon.png" alt="NodeJs" />
             </div>
+            <div class="skill">
+              <img src="./assets/Express-Js-56.png" alt="ExpressJS" />
+            </div>
           </div>
           <a href="#contacts" class="hero-link btn">Contact Me</a>
         </div>
@@ -71,56 +86,205 @@
     </section>
     <!-- About Me Section -->
     <!-- My Work Section -->
-    <section class="section">
+    <section class="section" id="my-work">
       <div class="container">
         <h3 class="section-title">My Work</h3>
         <div class="card-container">
           <div class="card">
-            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-img">
+              <img src="./assets/placeholder-image-1.png" alt="" />
+            </div>
             <div class="card-details">
               <h4 class="card-title">Project Title</h4>
-              <p class="card-desc">project descreption</p>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                assumenda fugit vel eveniet quis! Id esse earum ea enim libero
+                fuga quisquam eaque eveniet?
+              </p>
+              <div class="my-skills">
+                <div class="skill">
+                  <img src="./assets/html5-icon.png" alt="HTML5" />
+                </div>
+                <div class="skill">
+                  <img src="./assets/css-icon.png" alt="CSS3" />
+                </div>
+              </div>
               <div class="card-links">
-                <a href="#" class="btn">Preview</a>
-                <a href="#" class="btn">Code</a>
+                <a href="#" class="btn"
+                  >Preview
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M19 6.41L8.7 16.71a1 1 0 11-1.4-1.42L17.58 5H14a1 1 0 010-2h6a1 1 0 011 1v6a1 1 0 01-2 0V6.41zM17 14a1 1 0 012 0v5a2 2 0 01-2 2H5a2 2 0 01-2-2V7c0-1.1.9-2 2-2h5a1 1 0 010 2H5v12h12v-5z"
+                    /></svg
+                ></a>
+                <a href="#" class="btn"
+                  >Code
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0016 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
           <div class="card">
-            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-img">
+              <img src="./assets/placeholder-image-1.png" alt="" />
+            </div>
             <div class="card-details">
               <h4 class="card-title">Project Title</h4>
-              <p class="card-desc">project descreption</p>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                assumenda fugit vel eveniet quis! Id esse earum ea enim libero
+                fuga quisquam eaque eveniet?
+              </p>
+              <div class="my-skills">
+                <div class="skill">
+                  <img src="./assets/html5-icon.png" alt="HTML5" />
+                </div>
+                <div class="skill">
+                  <img src="./assets/css-icon.png" alt="CSS3" />
+                </div>
+              </div>
               <div class="card-links">
-                <a href="#" class="btn">Preview</a>
-                <a href="#" class="btn">Code</a>
+                <a href="#" class="btn"
+                  >Preview
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M19 6.41L8.7 16.71a1 1 0 11-1.4-1.42L17.58 5H14a1 1 0 010-2h6a1 1 0 011 1v6a1 1 0 01-2 0V6.41zM17 14a1 1 0 012 0v5a2 2 0 01-2 2H5a2 2 0 01-2-2V7c0-1.1.9-2 2-2h5a1 1 0 010 2H5v12h12v-5z"
+                    /></svg
+                ></a>
+                <a href="#" class="btn"
+                  >Code
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0016 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
           <div class="card">
-            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-img">
+              <img src="./assets/placeholder-image-1.png" alt="" />
+            </div>
             <div class="card-details">
               <h4 class="card-title">Project Title</h4>
-              <p class="card-desc">project descreption</p>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                assumenda fugit vel eveniet quis! Id esse earum ea enim libero
+                fuga quisquam eaque eveniet?
+              </p>
+              <div class="my-skills">
+                <div class="skill">
+                  <img src="./assets/html5-icon.png" alt="HTML5" />
+                </div>
+                <div class="skill">
+                  <img src="./assets/css-icon.png" alt="CSS3" />
+                </div>
+              </div>
               <div class="card-links">
-                <a href="#" class="btn">Preview</a>
-                <a href="#" class="btn">Code</a>
+                <a href="#" class="btn"
+                  >Preview
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M19 6.41L8.7 16.71a1 1 0 11-1.4-1.42L17.58 5H14a1 1 0 010-2h6a1 1 0 011 1v6a1 1 0 01-2 0V6.41zM17 14a1 1 0 012 0v5a2 2 0 01-2 2H5a2 2 0 01-2-2V7c0-1.1.9-2 2-2h5a1 1 0 010 2H5v12h12v-5z"
+                    /></svg
+                ></a>
+                <a href="#" class="btn"
+                  >Code
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0016 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
           <div class="card">
-            <img src="./assets/placeholder-image-1.png" alt="" />
+            <div class="card-img">
+              <img src="./assets/placeholder-image-1.png" alt="" />
+            </div>
             <div class="card-details">
               <h4 class="card-title">Project Title</h4>
-              <p class="card-desc">project descreption</p>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+                assumenda fugit vel eveniet quis! Id esse earum ea enim libero
+                fuga quisquam eaque eveniet?
+              </p>
+              <div class="my-skills">
+                <div class="skill">
+                  <img src="./assets/html5-icon.png" alt="HTML5" />
+                </div>
+                <div class="skill">
+                  <img src="./assets/css-icon.png" alt="CSS3" />
+                </div>
+              </div>
               <div class="card-links">
-                <a href="#" class="btn">Preview</a>
-                <a href="#" class="btn">Code</a>
+                <a href="#" class="btn"
+                  >Preview
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M19 6.41L8.7 16.71a1 1 0 11-1.4-1.42L17.58 5H14a1 1 0 010-2h6a1 1 0 011 1v6a1 1 0 01-2 0V6.41zM17 14a1 1 0 012 0v5a2 2 0 01-2 2H5a2 2 0 01-2-2V7c0-1.1.9-2 2-2h5a1 1 0 010 2H5v12h12v-5z"
+                    /></svg
+                ></a>
+                <a href="#" class="btn"
+                  >Code
+                  <svg
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0016 8c0-4.42-3.58-8-8-8z"
+                    />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="./app.js"></script>
   </body>
 </html>
