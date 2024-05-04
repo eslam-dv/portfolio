@@ -58,14 +58,19 @@ a {
 }
 
 .btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-size: 1.125rem;
   font-weight: 500;
   padding: 5px 10px;
-  border: 1px solid rgb(var(--primary));
-  width: fit-content;
   border-radius: 8px;
-  transition: var(--transition);
   background-color: rgb(var(--primary));
+}
+
+.btn:hover {
+  background-color: rgba(var(--primary), 0.5);
+  transition: var(--transition);
 }
 
 /* Navbar Style */
@@ -293,6 +298,29 @@ nav.open {
   gap: 3px;
 }
 
+/* Contact me styles */
+.contacts-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contact {
+  background-color: rgb(var(--primary));
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 10px;
+}
+
+.contact span {
+  width: 1.5rem;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
   nav {
@@ -329,11 +357,5 @@ nav.open {
   }
   .hero-txt {
     gap: 30px;
-  }
-  .hero-link {
-    background-color: transparent;
-  }
-  .hero-link:hover {
-    background-color: rgb(var(--primary));
   }
 }
