@@ -225,6 +225,7 @@ nav.open {
 .about-container span {
   color: rgb(var(--primary));
   font-weight: 700;
+  font-size: 1.125rem;
 }
 
 .about-container h3 {
