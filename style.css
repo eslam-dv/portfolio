@@ -48,7 +48,6 @@ a {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
-  /* color: rgb(var(--primary)) */
 }
 
 .col {
@@ -209,6 +208,33 @@ nav.open {
   width: 100%;
 }
 /* About Me Styles */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 30px;
+}
+
+.about-container span {
+  color: rgb(var(--primary));
+  font-weight: 700;
+}
+
+.about-container h3 {
+  margin-bottom: 20px;
+}
+
+.about-img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5%;
+}
+
+.about-img img {
+  width: 100%;
+}
 
 /* My Work Styles */
 .card-container {
@@ -295,6 +321,10 @@ nav.open {
 
   .hero-container {
     flex-direction: row-reverse;
+    text-align: start;
+  }
+  .about-container {
+    flex-direction: row;
     text-align: start;
   }
   .hero-txt {
