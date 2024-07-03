@@ -55,3 +55,18 @@ function scrollToTop() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+/*========== scroll to top ==========*/
+ScrollReveal({
+  distance: "80px",
+  duration: 1500,
+  delay: 200,
+});
+
+ScrollReveal().reveal(".home-content, .home .heading", { origin: "top" });
+ScrollReveal().reveal(
+  ".home-img, .projects-container, .project, .contact form",
+  { origin: "bottom" },
+);
+ScrollReveal().reveal(".about-img", { origin: "left" });
+ScrollReveal().reveal(".about-content", { origin: "right" });
